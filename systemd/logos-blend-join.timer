@@ -1,0 +1,7 @@
+[Unit]
+Description=Retry Logos Blend join every 20 min until it succeeds
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=20min
+[Install]
+WantedBy=timers.target

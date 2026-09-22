@@ -1,0 +1,20 @@
+[Unit]
+Description=Logos node managed by logosctl
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=logos
+Group=logos
+WorkingDirectory=/var/lib/logos-node
+Environment=HOME=/var/lib/logos-node
+Environment=LOGOSCTL_CONFIG_DIR=/var/lib/logos-node/.logosctl
+ExecStart=/usr/local/bin/logosctl daemon start
+ExecStop=/usr/local/bin/logosctl daemon stop
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

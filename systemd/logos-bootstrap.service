@@ -1,0 +1,17 @@
+[Unit]
+Description=Start Logos modules (blockchain, storage, delivery)
+After=logos-node.service
+Requires=logos-node.service
+PartOf=logos-node.service
+
+[Service]
+Type=oneshot
+User=logos
+Group=logos
+WorkingDirectory=/var/lib/logos-node
+ExecStart=/usr/local/bin/logos-bootstrap.sh
+TimeoutStartSec=15min
+StandardOutput=journal
+
+[Install]
+WantedBy=logos-node.service

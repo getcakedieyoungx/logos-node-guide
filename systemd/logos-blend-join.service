@@ -1,0 +1,8 @@
+[Unit]
+Description=Join the Logos Blend network once funded
+After=logos-bootstrap.service
+[Service]
+Type=oneshot
+User=logos
+Group=logos
+ExecStart=/usr/local/bin/logos-blend-join.sh

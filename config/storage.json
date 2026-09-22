@@ -1,0 +1,8 @@
+{
+  "data-dir": "./storage-data",
+  "log-level": "INFO",
+  "listen-ip": "0.0.0.0",
+  "listen-port": 8091,
+  "disc-port": 8090,
+  "network": "logos.test"
+}

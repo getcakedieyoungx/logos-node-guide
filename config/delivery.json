@@ -1,0 +1,12 @@
+{
+  "entryLayer": "kernel",
+  "kernelConf": {
+    "preset": "logos.test",
+    "relay": true,
+    "logLevel": "INFO",
+    "tcpPort": 30303,
+    "discv5UdpPort": 9000,
+    "discv5Discovery": true,
+    "nat": "extip:__PUBLIC_IP__"
+  }
+}
