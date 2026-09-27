@@ -13,6 +13,8 @@
 One script that installs a **Logos testnet node** (blockchain + storage + delivery), runs it under systemd so it survives reboots, requests testnet funds, and **joins the Blend network by itself** once the funds arrive.
 
 > Written from a real install on 22 Sep 2026, on the same VPS as two other nodes.
+>
+> 📡 Setup fixes, upgrade notes and new node guides: **[GETCAKE on Telegram](https://t.me/+Gh2_iIRNZG04MGQ0)**
 
 ---
 
@@ -156,7 +158,7 @@ When Logos announces a new release set, open the [Node Operator Guide](https://r
 - Node Operator Guide: https://roadmap.logos.co/testnets/logos-node-operator-guide
 - Testnet v0.2 announcement: https://blog.logos.co/article/testnet-v02-live
 - Docs: https://docs.logos.co
-- Telegram group: https://t.me/getcakedieyoungx
+- Updates & setup help: [GETCAKE on Telegram](https://t.me/+Gh2_iIRNZG04MGQ0)
 
 ## Disclaimer
 
